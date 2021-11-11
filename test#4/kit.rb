@@ -1,5 +1,6 @@
 class Kit
-  def initialize; end
+  def initialize
+  end
 
   def type
     'kit'

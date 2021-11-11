@@ -15,7 +15,6 @@ Il s'agit de décrire la manière dont tu construirais cette logique de notifica
 Il est important que cette fonctionnalité de notification ralentisse le moins possible le fonctionnement de l'app - le chargement des pages en particulier.
 
 Nous n'attendons pas de code sur cet exercice. Imagine que tu parles de cette fonctionalité à ton manager, sans rentrer dans les détails, tu lui expliques simplement ce que tu vas développer.
-
 ---
 Bonne chance 💪 !
 
