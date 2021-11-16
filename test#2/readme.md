@@ -40,4 +40,4 @@ Afin de rendre les notifications visibles partout sur l'application on creer une
 
 
 Notification B:
-Pour l'envoi d'eamil pour uoi ne pas utiliser un Rake Task avec Action Mailer afin de configurer une recurrence dans l'envoi des emails avec le Rake Task et lister toutes es notifications de la semaine par une methode definis dans la class ActionMailer
+Pour l'envoi d'email j'utiliserai un Rake Task avec Action Mailer afin de configurer une recurrence dans l'envoi des emails avec le Rake Task et lister toutes les notifications de la semaine par une methode definis dans la class ActionMailer afin que chaque semaine l'onboardee recoivent un email avec les taches faites et non faites et leur date d'échéance.
