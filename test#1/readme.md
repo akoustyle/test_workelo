@@ -42,4 +42,4 @@ Bonne chance 💪!
 > Si tu as la moindre question ✉️ recrutement-tech@workelo.eu
 
 
-<strong> LAUNCH ruby script.rb </strong> tu find all the available slots
+<strong> LAUNCH ruby script.rb </strong> to find all the available slots
