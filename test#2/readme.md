@@ -22,22 +22,22 @@ Bonne chance 💪 !
 
 Notification A:<br>
 
-Fonctionnalité <br>
+<span>Fonctionnalité</span> <br>
 Émettre une alerte lorsqu'une tâche est 'faite' ou 'non faite' et a une date d'échéance.
 Nous allons introduire un mécanisme pour avertir l'onboardee lorsque une tache change de statut.
 
-Model <br>
+<span>Model</span> <br>
 On crée un Model de Notification avec des references aux users et aux taches. Le modele User has_many notifications, le model tâche belongs_to user et has_one notification.
 Le model Notification belongs_to user et belongs_to tâche et une action {faite - pas faite}
 
-Controller <br>
+<span>Controller</span> <br>
 Dans le controller des taches on implemente une methode de creation des taches qui creer egalement une notification
 Dans le controller des notifications on implemente une methode index des notifications afin de lister toutes les notifications.
 
-View <br>
+<span>View</span> <br>
 Afin de rendre les notifications visibles partout sur l'application on creer une partial _header.html afin d'implementer cette partial dans la barre de naviguation a cote de l'avatar du user.
 
 
 
-Notification B: <br>
+<span>Notification B:</span> <br>
 Pour l'envoi d'email j'utiliserai un Rake Task avec Action Mailer afin de configurer une recurrence dans l'envoi des emails avec le Rake Task et lister toutes les notifications de la semaine par une methode definis dans la class ActionMailer afin que chaque semaine l'onboardee recoivent un email avec les taches faites et non faites et leur date d'échéance.
