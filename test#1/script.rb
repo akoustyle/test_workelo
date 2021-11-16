@@ -6,4 +6,4 @@ sandra = JSON.parse(URI.open('https://raw.githubusercontent.com/Workelo/workelo-
 andy = JSON.parse(URI.open('https://raw.githubusercontent.com/Workelo/workelo-test/master/test%231/input_andy.json').read)
 
 service = CompareCalendarsService.new(sandra, andy)
-service.find_available_slot
+p service.find_available_slot
