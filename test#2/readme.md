@@ -22,19 +22,19 @@ Bonne chance 💪 !
 
 Notification A:
 
-Fonctionnalité
+Fonctionnalité <br>
 Émettre une alerte lorsqu'une tâche est 'faite' ou 'non faite' et a une date d'échéance.
 Nous allons introduire un mécanisme pour avertir l'onboardee lorsque une tache change de statut.
 
-Model
+Model <br>
 On crêe un Model de Notification avec des references aux users et aux taches. Le modele User has_many notifications, le model tâche belongs_to user et has_one notification.
 Le model Notification belongs_to user et belongs_to tâche et une action {faite - pas faite}
 
-Controller
+Controller <br>
 Dans le controller des taches on implemente une methode de creation des taches qui creer egalement une notification
 Dans le controller des notifications on implemente une methode index des notifications afin de lister toutes les notifications.
 
-View
+View <br>
 Afin de rendre les notifications visibles partout sur l'application on creer une partial _header.html afin d'implementer cette partial dans la barre de naviguation a cote de l'avatar du user.
 
 
