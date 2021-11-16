@@ -20,7 +20,7 @@ Bonne chance 💪 !
 
 > Si tu as la moindre question, ✉️ recrutement-tech@workelo.eu
 
-Notification A:
+Notification A:<br>
 
 Fonctionnalité <br>
 Émettre une alerte lorsqu'une tâche est 'faite' ou 'non faite' et a une date d'échéance.
@@ -39,5 +39,5 @@ Afin de rendre les notifications visibles partout sur l'application on creer une
 
 
 
-Notification B:
+Notification B: <br>
 Pour l'envoi d'email j'utiliserai un Rake Task avec Action Mailer afin de configurer une recurrence dans l'envoi des emails avec le Rake Task et lister toutes les notifications de la semaine par une methode definis dans la class ActionMailer afin que chaque semaine l'onboardee recoivent un email avec les taches faites et non faites et leur date d'échéance.
