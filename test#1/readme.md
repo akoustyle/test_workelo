@@ -40,3 +40,6 @@ A partir des 2 tableaux et de la durée du créneau souhaité (par exemple 1h), 
 Bonne chance 💪!
 
 > Si tu as la moindre question ✉️ recrutement-tech@workelo.eu
+
+
+<strong> LAUNCH ruby script.rb </strong>
