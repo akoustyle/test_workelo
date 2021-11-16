@@ -19,3 +19,25 @@ Nous n'attendons pas de code sur cet exercice. Imagine que tu parles de cette fo
 Bonne chance 💪 !
 
 > Si tu as la moindre question, ✉️ recrutement-tech@workelo.eu
+
+Notification A:
+
+Fonctionnalité
+Émettre une alerte lorsqu'une tâche est 'faite' ou 'non faite' et a une date d'échéance.
+Nous allons introduire un mécanisme pour avertir l'onboardee lorsque une tache change de statut.
+
+Model
+On crêe un Model de Notification avec des references aux users et aux taches. Le modele User has_many notifications, le model tâche belongs_to user et has_one notification.
+Le model Notification belongs_to user et belongs_to tâche et une action {faite - pas faite}
+
+Controller
+Dans le controller des taches on implemente une methode de creation des taches qui creer egalement une notification
+Dans le controller des notifications on implemente une methode index des notifications afin de lister toutes les notifications.
+
+View
+Afin de rendre les notifications visibles partout sur l'application on creer une partial _header.html afin d'implementer cette partial dans la barre de naviguation a cote de l'avatar du user.
+
+
+
+Notification B:
+Pour l'envoi d'eamil pour uoi ne pas utiliser un Rake Task avec Action Mailer afin de configurer une recurrence dans l'envoi des emails avec le Rake Task et lister toutes es notifications de la semaine par une methode definis dans la class ActionMailer

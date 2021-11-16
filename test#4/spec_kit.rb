@@ -1,24 +1,28 @@
+require_relative 'kit'
+require 'date'
+
 class KitTest
 
-  test " type return kit" do
-    Kit.type('kit')
-    expect(Kit.type).to eq("kit")
-  end
+  describe Kit do
+    it " type return kit" do
+      expect(Kit.new.type).to eq("kit")
+    end
 
-  test " title return the capitalized laptop needed " do
-    Kit.title('MacBook')
-    # asser_equal "MacBook", kit.title
-    expect(Kit.title.count).to eq(1)
-  end
+    it " title return the capitalized laptop needed " do
+      expect(Kit.new.title).to eq('MacBook')
+    end
 
-  test "possibility to dragg returns false" do
+    it "possibility to dragg returns false" do
+      expect(Kit.new.draggable?).to be true
+    end
 
-    expect(Kit.draggable?).to be false
-  end
+    it "date method return a Date object" do
+      expect(Kit.new.date).to eq(Date.new(2021, 10, 1))
+    end
 
-  test "environement return a region" do
-    Kit.environment("Région Sud-Ouest'")
-    expect(Kit.environment.count).to eq(1)
+    it "environement return a region" do
+      expect(Kit.new.environment).to eq('Région Sud-Ouest')
+    end
   end
 
 end
