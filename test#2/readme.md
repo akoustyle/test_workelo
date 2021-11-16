@@ -27,7 +27,7 @@ Fonctionnalité <br>
 Nous allons introduire un mécanisme pour avertir l'onboardee lorsque une tache change de statut.
 
 Model <br>
-On crêe un Model de Notification avec des references aux users et aux taches. Le modele User has_many notifications, le model tâche belongs_to user et has_one notification.
+On crée un Model de Notification avec des references aux users et aux taches. Le modele User has_many notifications, le model tâche belongs_to user et has_one notification.
 Le model Notification belongs_to user et belongs_to tâche et une action {faite - pas faite}
 
 Controller <br>
