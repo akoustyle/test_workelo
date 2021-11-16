@@ -20,7 +20,7 @@ Bonne chance 💪 !
 
 > Si tu as la moindre question, ✉️ recrutement-tech@workelo.eu
 
-Notification A:<br>
+<strong>Notification A:</strong><br>
 
 <strong>Fonctionnalité</strong> <br>
 Émettre une alerte lorsqu'une tâche est 'faite' ou 'non faite' et a une date d'échéance.
