@@ -23,13 +23,12 @@ Allez, c'est le dernier, après c'est fini 💪 !
 Lancer rspec spec_kit.rb
 
 ### 2 Test de naviguation<br>
-Avant de lancer le test, installer les gems suivantes si elle ne sont pas déjà installé:<br>
-
+Avant de lancer le test, installer les gems suivantes si elles ne sont pas déjà installées:<br>
 gem install rspec<br>
 gem install capybara<br>
 gem install selenium-webdriver<br>
 
-Uniquement si vous avez déjà la gem rspec installé et que le  test ne fonctionne pas, forcer l'installation via cette commande:<br>
+🚨 Uniquement si vous avez déjà la gem rspec installé et que le  test ne fonctionne pas, forcer l'installation via cette commande:<br>
 sudo gem install rspec -v 3.10.0
 
 Lancer:<br>
