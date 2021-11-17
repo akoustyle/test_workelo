@@ -24,21 +24,26 @@ Lancer rspec spec_kit.rb
 
 ### 2 Test de naviguation<br>
 Avant de lancer le test, installer les gems suivantes si elle ne sont pas déjà installé:<br>
-gem install rspec
-gem install capybara
-gem install selenium-webdriver
+
+gem install rspec<br>
+gem install capybara<br>
+gem install selenium-webdriver<br>
 
 Uniquement si vous avez déjà la gem rspec installé et que le  test ne fonctionne pas, forcer l'installation via cette commande:<br>
+
 sudo gem install rspec -v 3.10.0
 
 Lancer:<br>
+
 bundle install
 
 Lancer:<br>
+
 brew install --cask chromedriver
 
 Dans un nouveau terminal lancer ces 2 lignes:<br>
-cd /usr/local/Caskroom/chromedriver/95.0.4638.69
+
+cd /usr/local/Caskroom/chromedriver/95.0.4638.69<br>
 xattr -d com.apple.quarantine chromedriver
 
 Enfin<br>
