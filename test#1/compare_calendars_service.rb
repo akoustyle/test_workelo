@@ -10,7 +10,7 @@ class CompareCalendarsService
   end
 
   def find_available_slot
-    all_slots = (@day..(@day + 5)).map { |day| (9...18).to_a.map {|hour| DateTime.new(@year,@month,day,hour) } }.flatten
+    all_slots = (@day..(@day + 4)).map { |day| (9...18).to_a.map {|hour| DateTime.new(@year,@month,day,hour) } }.flatten
     filter_slot = all_slots
     @first_busy_slots.map do |slot|
       start = DateTime.parse(slot["start"])
