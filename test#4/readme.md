@@ -28,7 +28,7 @@ gem install rspec<br>
 gem install capybara<br>
 gem install selenium-webdriver<br>
 
-🚨 Uniquement si vous avez déjà la gem rspec installé et que le  test ne fonctionne pas, forcer l'installation via cette commande:<br>
+🚨 Uniquement si vous avez déjà la gem rspec installée et que le  test ne fonctionne pas, forcer l'installation via cette commande:<br>
 sudo gem install rspec -v 3.10.0
 
 Lancer:<br>
