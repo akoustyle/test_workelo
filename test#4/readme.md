@@ -19,27 +19,27 @@ Allez, c'est le dernier, après c'est fini 💪 !
 
 > Si tu as la moindre question, ✉️ recrutement-tech@workelo.eu
 
-### 1 Test unitaire
+### 1 Test unitaire<br>
 Lancer rspec spec_kit.rb
 
-### 2 Test de naviguation
-Avant de lancer le test, installer les gems suivantes si elle ne sont pas déjà installé:
+### 2 Test de naviguation<br>
+Avant de lancer le test, installer les gems suivantes si elle ne sont pas déjà installé:<br>
 gem install rspec
 gem install capybara
 gem install selenium-webdriver
 
-Uniquement si vous avez déjà la gem rspec installé et que le  test ne fonctionne pas, forcer l'installation via cette commande:
+Uniquement si vous avez déjà la gem rspec installé et que le  test ne fonctionne pas, forcer l'installation via cette commande:<br>
 sudo gem install rspec -v 3.10.0
 
-Lancer:
+Lancer:<br>
 bundle install
 
-Lancer:
+Lancer:<br>
 brew install --cask chromedriver
 
-Dans un nouveau terminal lancer ces 2 lignes:
+Dans un nouveau terminal lancer ces 2 lignes:<br>
 cd /usr/local/Caskroom/chromedriver/95.0.4638.69
 xattr -d com.apple.quarantine chromedriver
 
-Enfin
+Enfin<br>
 Lancer rspec test_naviguation.rb
